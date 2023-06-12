@@ -1,0 +1,166 @@
+  .navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.custom-nav-item:hover {
+  background-color: #ffb344;
+  color: #e05d5d !important;
+  border: solid #ffb344 1px;
+  border-radius: 10px;
+}
+
+.navbar {
+  padding-left: 3em;
+}
+
+.custom-nav {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.my-nav {
+  color: #e05d5d !important;
+}
+
+.my-text {
+  color: #259f6c !important;
+}
+
+.custom-nav-item a {
+  font-weight: 500;
+
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #e05d5d !important;
+}
+
+.remove-vid-marg {
+  margin: 0px;
+  padding: 0px;
+}
+
+.vid-parent {
+  position: relative;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.vid-content {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  left: 25%;
+  text-align: center;
+}
+
+.my-content-head {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #39a2db;
+}
+
+.my-content {
+  font-size: 1em;
+  font-family: "Bree Serif", serif;
+  font-weight: bold;
+  color: #476072;
+}
+
+.button-dan {
+  background-color: #e05d5d;
+  font-family: "Bree Serif", serif;
+  color: #fff;
+  border: solid #e05d5d 1px;
+}
+
+.txt-banner {
+  padding: 0px;
+}
+
+.botm-banner {
+  font-family: "Bree Serif", serif;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  padding: 10px;
+}
+.botm-banner:first-child{
+  padding-left:50px;
+}
+a.social-hover:hover{
+  padding: 5px 100px;
+  text-decoration: none;
+  background-color: #1a1207;
+}
+
+.stripe {
+  background-image: linear-gradient(240deg, #ed213a, #93291e);
+  padding: 3em;
+  height: 13em;
+  margin-top: 4em;
+  transform: rotate(10deg);
+  z-index: -5;
+}
+
+@media screen and (min-width:0px)and(max-width:700px) {
+  .my-content,.txt-banner,.stripe{
+display:none ;
+  } 
+  .vid-content{
+    top:12%;
+    left:60%;
+  }
+
+  .custom-nav.custom-nav-item a {
+    padding: 10px 20px;
+    background-color: #e9ed21;
+  }
+
+  .custom-nav-item:hover{
+    background-color:none;
+    border: none;
+    border-radius: none;
+  }
+}
+
+.each-con {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.container {
+  font-family: "Bree Serif", serif;
+  color: #39a2db;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0px 0px 15px 2px #777777;
+}
+
+.container-con {
+  margin-left: 12em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.mb-4 {
+  font-family: "Bree Serif", serif;
+  color: #e05d5d;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  z-index: -5;
+}
+
+.col-sm {
+  padding-left: 5em;
+}
+
